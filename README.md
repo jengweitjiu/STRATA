@@ -1,6 +1,6 @@
 # STRATA: Spatial Transcription-factor Regulatory Architecture
 
-[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.XX.XX.707661-b31b1b.svg)](https://doi.org/10.1101/2026.XX.XX.707661)
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.02.24.707661-b31b1b.svg)](https://doi.org/10.64898/2026.02.24.707661)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -136,7 +136,7 @@ Full data, scripts, and figures: [Zenodo archive](https://doi.org/10.5281/zenodo
   author={Tjiu, Jeng-Wei},
   journal={bioRxiv},
   year={2026},
-  doi={10.1101/2026.XX.XX.707661}
+  doi={10.64898/2026.02.24.707661}
 }
 ```
 
