@@ -1,7 +1,7 @@
 # STRATA: Spatial Transcription-factor Regulatory Architecture
 
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.02.24.707661-b31b1b.svg)](https://doi.org/10.64898/2026.02.24.707661)
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.18779419)
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.18779419-blue.svg)](https://doi.org/10.5281/zenodo.18779419)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 STRATA treats regulon activity scores as **continuous scalar fields on tissue manifolds**, enabling gradient computation, divergence analysis, and field coupling quantification directly on spatial transcriptomics coordinates.
@@ -10,11 +10,11 @@ STRATA treats regulon activity scores as **continuous scalar fields on tissue ma
 
 ## Overview
 
-Standard spatial transcriptomics tools focus on cell-type deconvolution and ligand?ìreceptor inference. STRATA provides a complementary, **field-theoretic** perspective: it computes smooth regulon activity fields from discrete spot-level data, then applies differential operators (gradient, divergence, Laplacian) to quantify spatial architecture.
+Standard spatial transcriptomics tools focus on cell-type deconvolution and ligand??receptor inference. STRATA provides a complementary, **field-theoretic** perspective: it computes smooth regulon activity fields from discrete spot-level data, then applies differential operators (gradient, divergence, Laplacian) to quantify spatial architecture.
 
 **Key capabilities:**
 - Compute regulon activity fields on any spatial platform (Visium, MERFISH, Slide-seq, Xenium)
-- Data-driven tissue axis definition (e.g., dermal?ìepidermal junction) without anatomical annotation
+- Data-driven tissue axis definition (e.g., dermal??epidermal junction) without anatomical annotation
 - 1D field profiles with bootstrap confidence intervals
 - Sample-level phase diagrams for disease classification
 - Field coupling analysis between regulatory programs
@@ -79,7 +79,7 @@ We validated STRATA on 30 skin biopsies (16,424 Visium spots) from healthy, non-
 
 | Finding | Value | Significance |
 |---------|-------|-------------|
-| Inflammatory?ìRegulatory coupling | ? = 0.94, R¬≤ = 0.95 | P = 1.7 ? 10?ª¬π‚Åπ |
+| Inflammatory??Regulatory coupling | ? = 0.94, R¬≤ = 0.95 | P = 1.7 ? 10??¬π‚Åπ |
 | Coupling slope | 1.06 | Near-perfect 1:1 scaling |
 | Regulatory residual vs PASI | ? = 0.47 | P = 0.023 |
 | Raw inflammatory vs PASI | ? = 0.04 | P = 0.86 (n.s.) |
@@ -94,7 +94,7 @@ We validated STRATA on 30 skin biopsies (16,424 Visium spots) from healthy, non-
 
 ![STRATA Atlas Composite](figures/Fig_COMPOSITE_v3_reordered.png)
 
-**(a)** DEJ axis on tissue coordinates. **(b)** 1D regulon field profiles with 95% bootstrap CIs. **(c)** Inflammatory?ìregulatory coupling (R¬≤ = 0.95) and disease phase space. **(d)** Regulatory residual predicts PASI (? = 0.47).
+**(a)** DEJ axis on tissue coordinates. **(b)** 1D regulon field profiles with 95% bootstrap CIs. **(c)** Inflammatory??regulatory coupling (R¬≤ = 0.95) and disease phase space. **(d)** Regulatory residual predicts PASI (? = 0.47).
 
 ---
 
@@ -102,11 +102,11 @@ We validated STRATA on 30 skin biopsies (16,424 Visium spots) from healthy, non-
 
 ```
 STRATA/
-?ú‚??Ä README.md
-?ú‚??Ä LICENSE
-?ú‚??Ä figures/
-??  ?î‚??Ä Fig_COMPOSITE_v3_reordered.png
-?î‚??Ä (analysis scripts in Zenodo archive)
+?????? README.md
+?????? LICENSE
+?????? figures/
+??  ?????? Fig_COMPOSITE_v3_reordered.png
+?????? (analysis scripts in Zenodo archive)
 ```
 
 Full data, scripts, and figures: [Zenodo archive](https://doi.org/10.5281/zenodo.18779419)
